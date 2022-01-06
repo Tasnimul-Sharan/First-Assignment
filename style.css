@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 50px;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+h1{
+    font-size: 60px;
+}
+h1 span{
+    color:orangered ;
+}
+p{
+    color: dimgray;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h2 span{
+    color: orangered;
+}
+h3{
+    text-align: center;
+}
+.start{
+    border-left: 7px solid;
+    border-color: rgb(180, 52, 5);
+    border-image-slice: 1;
+    border-width: 5px;
+}
+.mission{
+    width: 50%;
+    padding-left: 10%;
+}
+.mission img{
+    width:80%;
+}
+.Anchor-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+.middle{
+    display:inline-flex;
+    margin-bottom: 150px;
+}
+.after-middle h2{
+    font-weight: 700;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.global h2{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: inline-block;
+    margin:0 auto;
+    max-width: 100%;
+    margin-left: 10%;
+}
+.working{
+    text-align:center;
+    color: rgb(26, 26, 77);
+    display:block;
+}
+.my-mission{
+    width:32%;
+    font-size: 16px;
+    display:inline-block;
+    box-shadow: 5px 10px 30px gray;
+}
+.my-mission img{
+    width: 50%;
+}
+#img-one{ 
+    background-color:violet;
+    border-radius: 10px;
+ }
+ #img-two{ 
+     background-color: sandybrown;
+     border-radius: 10px;
+ }
+ #img-three{
+     background-color:rosybrown;
+     border-radius: 10px;
+ }
+.after-middle{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.global{
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right;
+}
+.bottom{
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 300px;
+    display:flex;
+}
+footer{
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: blanchedalmond;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
