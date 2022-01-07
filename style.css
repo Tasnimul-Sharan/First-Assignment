@@ -72,6 +72,7 @@ h3{
     width:32%;
     font-size: 16px;
     display:inline-block;
+    margin: 6px;
     box-shadow: 5px 10px 30px gray;
 }
 .my-mission img{
@@ -80,14 +81,20 @@ h3{
 #img-one{ 
     background-color:violet;
     border-radius: 10px;
+    position: relative;
+    right: 60px;
+    padding-top: 30px;
  }
  #img-two{ 
      background-color: sandybrown;
      border-radius: 10px;
+     position: relative;
+     right: 30px;
  }
  #img-three{
      background-color:rosybrown;
      border-radius: 10px;
+     padding-top: 30px;
  }
 .after-middle{
     background-image: url(images/shapes/shape-3.png);
